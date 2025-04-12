@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.circle-icon {
+  padding-top: 34px;
+  margin-left: 164px;
+}
+
+.consult-btn {
+  background-color: #030303;
+  color: #fff7f0;
+  padding: 14px 45px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 700;
+  line-height: 28px;
+  font-size: 16px;
+  margin-right: 164px;
+  margin-top: 38px;
+  margin-left: 164px;
+  border-radius: 28px;
+  border: 2px solid #030303;
+
+  &:hover {
+    background-color: #755cde;
+    color: #fff7f0;
+    border: 2px solid #755cde;
+  }
+}
