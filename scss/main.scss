@@ -39,40 +39,158 @@
 /* section service */
 
 .services {
-  display: inline-block;
   display: flex;
 }
 
-.service-card-graphic {
-  margin-left: 165px;
+.services-graphic {
+  width: 354px;
+  height: 364px;
+  border-radius: 8px;
+  border: 2px solid #755cde;
+  background-color: #755cde;
   margin-top: 80px;
+  margin-left: 180px;
 }
 
-.service-card-illustratios {
-  transform: translateX(-757px);
-  margin-left: 24.09px;
-  margin-top: 286px;
+.services-graphic img {
+  margin-top: 24px;
+  margin-left: 202px;
 }
 
-.service-card-motion {
-  transform: translateX(-757px);
-  margin-left: 23.91px;
-  margin-top: 286px;
+.services-graphic h2 {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  color: #ffffff;
+  margin-top: 94px;
+  padding-right: 32px;
+  padding-left: 24px;
 }
 
-.service-card-ui {
-  margin-left: 24.09px;
+.services-ui-ux {
+  width: 164px;
+  height: 182px;
+  border-radius: 8px;
+  border: 2px solid #f6a560;
+  background-color: #f6a560;
   margin-top: 80px;
+  margin-left: 24.09px;
 }
 
-.service-card-apps {
+.services-ui-ux img {
+  margin-top: 24px;
+  margin-left: 71.91px;
+}
+
+.services-ui-ux h2 {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  color: #ffffff;
+  padding-top: 40px;
+  padding-left: 23.77px;
+}
+
+.services-apps {
+  width: 164px;
+  height: 182px;
+  border-radius: 8px;
+  border: 2px solid #f39e9e;
+  background-color: #f39e9e;
+  margin-top: 80px;
   margin-left: 25.04px;
-  margin-top: 80px;
 }
 
-.service-card-photography {
-  margin-left: 24.87px;
+.services-apps img {
+  margin-top: 24px;
+  margin-left: 75.87px;
+}
+
+.services-apps h2 {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  color: #ffffff;
+  padding-top: 40px;
+  padding-left: 23.77px;
+}
+
+.services-photography {
+  width: 354px;
+  height: 182px;
+  border-radius: 8px;
+  border: 2px solid #61c4b7;
+  background-color: #61c4b7;
   margin-top: 80px;
+  margin-left: 24.87px;
+}
+
+.services-photography img {
+  margin-top: 24px;
+  margin-left: 170px;
+}
+
+.services-photography h2 {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  color: #ffffff;
+  padding-top: 40px;
+  padding-left: 23.86px;
+}
+
+.services-illustrations {
+  width: 354px;
+  height: 158px;
+  border-radius: 8px;
+  border: 2px solid #eb7565;
+  background-color: #eb7565;
+  margin-top: 24px;
+  transform: translate(-353px);
+}
+
+.services-illustrations img {
+  margin-top: 24px;
+  margin-left: 200.91px;
+}
+
+.services-illustrations h2 {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  color: #ffffff;
+  padding-top: 16px;
+  padding-left: 24.35px;
+}
+
+.services-motion-graphics {
+  width: 354px;
+  height: 158px;
+  border-radius: 8px;
+  border: 2px solid #552049;
+  background-color: #552049;
+  margin-top: 24px;
+  margin-left: 378px;
+  transform: translateY(-150px);
+}
+
+.services-motion-graphics img {
+  margin-top: 24px;
+  margin-left: 202px;
+}
+
+.services-motion-graphics h2 {
+  font-family: "Plus Jakarta Sans";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 100%;
+  padding-top: 16px;
+  padding-left: 24px;
 }
 
 /* section mywork */
@@ -149,6 +267,42 @@
   margin-top: 56px;
   margin-left: 678px;
   gap: 16px;
+}
+
+.img-one {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 2px solid #030303;
+  color: #ffffff;
+  background-color: black;
+  padding-top: 24px;
+  padding-right: 24.19px;
+  padding-left: 25px;
+  padding-bottom: 24px;
+
+  &:hover {
+    border: 2px solid #755cde;
+    background-color: #755cde;
+  }
+}
+
+.img-two {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  border: 2px solid #030303;
+  color: #ffffff;
+  background-color: black;
+  padding-top: 24px;
+  padding-right: 24.19px;
+  padding-left: 25px;
+  padding-bottom: 24px;
+
+  &:hover {
+    border: 2px solid #755cde;
+    background-color: #755cde;
+  }
 }
 
 .left {
